@@ -14,8 +14,8 @@ const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const twilioClient = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
 const SYSTEM = fs.readFileSync('./system_prompt.txt', 'utf8');
 
-const JSONBIN_KEY = 'DEIN_E7SEN_JSONBIN_KEY';
-const JSONBIN_BIN = 'DEINE_E7SEN_BIN_ID';
+const JSONBIN_KEY = $2a$10$Ofc1Y9zPHLtpWpIrhyVieOXaeyfhoIgeEJNxSdXWOarcsHQLUGTBO
+const JSONBIN_BIN = 69d5175a36566621a889ac5c;
 const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN}`;
 
 const conversations = {};
